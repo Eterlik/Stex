@@ -1,0 +1,28 @@
+﻿<Window x:Class="SuntoTexteditorExtensionWPF.Pages.SaveChangesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuntoTexteditorExtensionWPF.Pages"
+        mc:Ignorable="d"
+        Title="Save changes" 
+        Closing="Window_Closing"
+        MinHeight="110"
+        MinWidth="230"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner" 
+        >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Do you want to save your changes?" Margin="0,10,0,0" FontWeight="Bold" HorizontalContentAlignment="Center" Height="26" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button Click="YesClicked" Content="Yes" IsDefault="True" HorizontalAlignment="Center" Margin="0,0,0,10" Height="20" VerticalAlignment="Bottom"/>
+        <Button Click="NoClicked" Content="No" IsCancel="True" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,10" Height="20" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

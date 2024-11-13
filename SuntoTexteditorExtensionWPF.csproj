@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\amazon_music_logo.png" />
+    <None Remove="Images\apple_music_logo.png" />
+    <None Remove="Images\badge.png" />
+    <None Remove="Images\buy_me_a_coffee.png" />
+    <None Remove="Images\Logo Orginal.png" />
+    <None Remove="Images\spotify_music_logo.png" />
+    <None Remove="Images\youtube_logo.png" />
+    <None Remove="Images\youtube_music_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\amazon_music_logo.png" />
+    <Resource Include="Images\apple_music_logo.png" />
+    <Resource Include="Images\badge.png" />
+    <Resource Include="Images\buy_me_a_coffee.png" />
+    <Resource Include="Images\Logo Orginal.png" />
+    <Resource Include="Images\spotify_music_logo.png" />
+    <Resource Include="Images\youtube_logo.png" />
+    <Resource Include="Images\youtube_music_logo.png" />
+  </ItemGroup>
+
+</Project>
