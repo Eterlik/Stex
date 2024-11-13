@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\SuntoTexteditorExtensionWPF.csproj": {}
+    "D:\\Programmieren\\C#\\Stex\\SuntoTexteditorExtensionWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\SuntoTexteditorExtensionWPF.csproj": {
+    "D:\\Programmieren\\C#\\Stex\\SuntoTexteditorExtensionWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\SuntoTexteditorExtensionWPF.csproj",
+        "projectUniqueName": "D:\\Programmieren\\C#\\Stex\\SuntoTexteditorExtensionWPF.csproj",
         "projectName": "SuntoTexteditorExtensionWPF",
-        "projectPath": "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\SuntoTexteditorExtensionWPF.csproj",
+        "projectPath": "D:\\Programmieren\\C#\\Stex\\SuntoTexteditorExtensionWPF.csproj",
         "packagesPath": "C:\\Users\\Eterl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\obj\\",
+        "outputPath": "D:\\Programmieren\\C#\\Stex\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

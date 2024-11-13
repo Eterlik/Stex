@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6brS53jvIek=",
+  "dgSpecHash": "CaOX551FSVg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eterl\\source\\repos\\SuntoTexteditorExtensionWPF\\SuntoTexteditorExtensionWPF.csproj",
+  "projectFilePath": "D:\\Programmieren\\C#\\Stex\\SuntoTexteditorExtensionWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eterl\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
     "C:\\Users\\Eterl\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
